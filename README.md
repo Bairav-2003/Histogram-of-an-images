@@ -79,16 +79,16 @@ Gray Scale Image
 ![gray scale img1.jpg](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/gray%20scale%20img.jpg)
 
 Color Image
-![Screenshot 2023-09-05 144007](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/db87967b-2b07-4bdc-be6c-bd7daf961482)
+![color img.jpg](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/color%20img.jpg)
 
 <br>
 
 ### Histogram of Grayscale Image and any channel of Color Image
 Gray Scale Image
-![Screenshot 2023-09-05 144016](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/f8f5a8f8-2fbc-4864-80a9-4e9bb6cff752)
+![histogram.png](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/histogram.png)
 
 Color Image
-![Screenshot 2023-09-05 144023](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/55bce756-c55e-4ef8-bcbb-184c38ff99fe)
+![color scale.png](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/color%20scale.png)
 
 <br>
 
@@ -96,11 +96,11 @@ Color Image
 
 Original Image
 
-![Screenshot 2023-09-05 144411](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/a9292599-3dd0-4387-bcdc-3b73e7901601)
+![gray scale img1.jpg](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/gray%20scale%20img1.jpg)
 
 Equalized Image
 
-![Screenshot 2023-09-05 144420](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/0ee182cd-5729-41b5-b88d-81fe1f7a9754)
+![eq gray img.jpg](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/eq%20gray%20img.jpg)
 
 <br>
 
