@@ -28,42 +28,47 @@ Calculate and display the equalized image using equalizeHist()
 
 ## Program:
 ```
-# Developed By: SANJAY G
-# Register Number: 212222230131
+# Developed By: Bairav skandan Loha
+# Register Number: 212222230110
+
 import cv2
 import matplotlib.pyplot as plt
+gray_image = cv2.imread("ajith 2.jpg")
+color_image = cv2.imread("thalapathy-vijay.jpg",-1)
+cv2.imshow("Gray Image",gray_image)
+cv2.imshow("Colour Image",color_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
-# Histogram for Gray scale and Color image
- 
-gray_image = cv2.imread('grayscale.jpeg')
-color_image = cv2.imread('color.jpeg')
-plt.imshow(gray_image)
-plt.show()
-plt.imshow(color_image)
-plt.show()
-hist = cv2.calcHist([gray_image],[0],None,[256],[0,256])
-hist1 = cv2.calcHist([color_image],[1],None,[256],[0,256])
-plt.figure()
-plt.title("Histogram")
-plt.xlabel('GrayScaleValue')
-plt.ylabel('PixelCount')
-plt.stem(hist)
-plt.show()
-plt.figure()
-plt.title("Histogram")
-plt.xlabel('Intensity Value')
-plt.ylabel('PixelCount')
-plt.stem(hist1)
-plt.show()
-
-
-
-# Equalized Image
 import cv2
-Gray_image=cv2.imread('gray.jpeg',0)
-equ = cv2.equalizeHist(Gray_image)
-cv2.imshow('Gray Image',Gray_image)
-cv2.imshow('Equalized Image',equ)
+Gray_image = cv2.imread("ajith 2.jpg")
+Color_image = cv2.imread("thalapathy-vijay.jpg")
+import matplotlib.pyplot as plt
+gray_hist = cv2.calcHist([Gray_image],[0],None,[256],[0,256])
+color_hist = cv2.calcHist([Color_image],[0],None,[256],[0,256])
+plt.figure()
+plt.imshow(Gray_image)
+plt.show()
+plt.title("Histogram")
+plt.xlabel("Grayscale Value")
+plt.ylabel("Pixel Count")
+plt.stem(gray_hist)
+plt.show()
+
+plt.imshow(Color_image)
+plt.show()
+plt.title("Histogram of Color Image - Green Channel")
+plt.xlabel("Intensity Value")
+plt.ylabel("Pixel Count")
+plt.stem(color_hist)
+plt.show()
+cv2.waitKey(0)
+
+import cv2
+gray_image = cv2.imread("ajith 2.jpg",0)
+cv2.imshow('Grey Scale Image',gray_image)
+equ = cv2.equalizeHist(gray_image)
+cv2.imshow("Equalized Image",equ)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
