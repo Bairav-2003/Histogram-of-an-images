@@ -76,7 +76,7 @@ cv2.destroyAllWindows()
 ## Output:
 ### Input Grayscale Image and Color Image
 Gray Scale Image
-![https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/gray%20scale%20img.jpg]
+![gray scale img1.jpg](https://github.com/Bairav-2003/Histogram-of-an-images/blob/main/gray%20scale%20img.jpg)
 
 Color Image
 ![Screenshot 2023-09-05 144007](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/db87967b-2b07-4bdc-be6c-bd7daf961482)
