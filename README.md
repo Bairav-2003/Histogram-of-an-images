@@ -76,7 +76,7 @@ cv2.destroyAllWindows()
 ## Output:
 ### Input Grayscale Image and Color Image
 Gray Scale Image
-![Screenshot 2023-09-05 144000](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/cac839c1-327c-4b1a-b33c-f3add928875b)
+!["C:\Users\makes\OneDrive\mini project\New folder\gray scale img.jpg"]
 
 Color Image
 ![Screenshot 2023-09-05 144007](https://github.com/Yamunaasri/HISTOGRAM/assets/115707860/db87967b-2b07-4bdc-be6c-bd7daf961482)
